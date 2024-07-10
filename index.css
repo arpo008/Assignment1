@@ -158,4 +158,76 @@ font-family: "Azeret Mono", monospace;
     border-radius: 15px ;
     
  }
+ .card{
+    width: 1100px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+   
+    
+ }
+ .card-h1{
+    margin: 0 auto;
+    margin-top: 50px;
+text-align: center;
+font-size: 25px;
+font-family: "Azeret Mono", monospace;
+ }
+ .card-p{
+    margin:0 auto;
+    margin-top: 10px;
+ text-align: center;
+ font-size: 15px;
+ font-family: "Azeret Mono", monospace;
+ color:#4b4d53;
+ }
+ .card-box{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ .box{
+    width:300px;
+    height:200px;
+    
+     border-radius:5px ;
+     background-color: #EBEBEB;
+     margin-top: 20px;
+     
+     
 
+ }
+ .card-box h1{
+    text-align: left ;
+    margin-left: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 10px;
+ }
+ .card-box p{
+    text-align: left ;
+    margin-left: 5px;
+    color: rgb(73, 71, 71);
+    margin:0 auto;
+    margin-top: 10px;
+    padding-left: 10px;
+ }
+ .card-box a{
+    text-align: left ;
+    margin-left: 5px;
+    color: rgb(73, 71, 71);
+    padding-bottom: 10px;
+    
+    
+ }
+
+.card-box img{
+width:70px;
+height:70px;
+margin: 0 auto;
+margin-top: 5px;
+ 
+}
