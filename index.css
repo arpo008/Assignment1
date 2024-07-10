@@ -130,4 +130,32 @@ color:#4b4d53;
     margin-top: 20px;
    
 }
+.video{
+    width:900px;
+    height:650px;
+    
+    margin: 0 auto;
+}
+.video h1{
+    margin: 0 auto;
+    margin-top: 50px;
+text-align: center;
+font-size: 25px;
+font-family: "Azeret Mono", monospace;
+}
+.video p{
+    margin:0 auto;
+    margin-top: 10px;
+ text-align: center;
+ font-size: 15px;
+ font-family: "Azeret Mono", monospace;
+ color:#4b4d53;
+ }
+ .video video{
+    margin-top: 30px;
+    width:902px;
+    height:350px;
+    border-radius: 15px ;
+    
+ }
 
