@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin:0 ;
+
 }
 .head-container{
     width:1240px;
     height:646px;
     margin: 0 auto;
     margin-top: 20px;
-    border:2px solid red;
+    
     background-image: url("Hero-bg.png");
     
 }
@@ -35,3 +36,98 @@
     font-family: "Azeret Mono", monospace;
 
 }
+.middle-task h1{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-family: "Azeret Mono", monospace;
+    font-size: bold;
+}
+.middle-task p{
+    text-align: center;
+    margin-top: 10px;
+    color: #4b4d53;
+    font-size: 16px;
+}
+
+.btn{
+    width: 244px;
+    height: 65px;
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px ;
+}
+.middle-task{
+    width: 1000px;
+    height: 1100px;
+    
+    margin: 0 auto;
+    margin-top: 10px;
+}
+    
+.left{
+
+   
+    
+    width:50%;
+    height:350px;
+}
+.right{
+   
+    width:50%;
+    height:350px;
+}
+.container{
+    display:flex;
+}
+.container h1{
+    margin: 0 auto;
+    margin-top: 50px;
+text-align: center;
+font-size: 25px;
+font-family: "Azeret Mono", monospace;
+}
+.container p{
+   margin:0 auto;
+   margin-top: 10px;
+text-align: center;
+font-size: 15px;
+font-family: "Azeret Mono", monospace;
+color:#4b4d53;
+}
+.left img{
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    padding-left: 70px;
+}
+.right img{
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    padding-left: 70px;
+}
+.Btn{
+    width: 100px;
+    height: 25px;
+    display:flex;
+    background-color: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 20px;
+   
+}
+
